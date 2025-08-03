@@ -60,6 +60,7 @@ Este script usa os arquivos `.csv` gerados na etapa anterior para criar uma visu
 ```
 /seu-projeto/
 |
+|-- exemplo   #Pasta com arquivo LVM para teste
 |-- csv-converter-batch.py     # Script para processar os arquivos LVM em lote
 |-- csv-visual-point.py # Script para gerar o gráfico 3D interativo
 |-- README.md                         # Este arquivo

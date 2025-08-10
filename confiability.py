@@ -29,7 +29,7 @@ def analisar_confiabilidade_from_csv(filepath):
     try:
         parts = df['Amostra'].str.split('_', expand=True)
         df['Sample_ID'] = parts[0]
-        df['Protocolo'] = 'V' + parts[1] + '_P' + parts[2]
+        df['Protocolo'] = 'V' + parts[1] + '_' + parts[2]
     except Exception as e:
         print(f"Erro ao processar a coluna 'Amostra': {e}")
         print("Verifique se os valores na coluna 'Amostra' seguem o padrão 'nome_velocidade_passo'.")

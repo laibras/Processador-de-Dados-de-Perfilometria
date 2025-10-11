@@ -80,5 +80,5 @@ def analisar_confiabilidade_from_csv(filepath):
 # --- Início da Execução Principal ---
 if __name__ == "__main__":
     # O nome do arquivo CSV a ser lido no mesmo diretório do script
-    csv_filename = 'resultado.csv'
+    csv_filename = 'mountains.csv'
     analisar_confiabilidade_from_csv(csv_filename)
